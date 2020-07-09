@@ -1,3 +1,5 @@
+package com.thecodevillage.day4;
+
 public class Student {
 	public static void main(String[] args) {
 		String name = "Nick";
