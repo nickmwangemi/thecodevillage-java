@@ -4,6 +4,30 @@ public class MyCar {
     private String regNumber = "KAA 001A";
     private String color = "Black";
 
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getRegNumber() {
+        return this.regNumber;
+    }
+
+    public void setRegNumber(String regNumber) {
+        this.regNumber = regNumber;
+    }
+
+    public String getColor() {
+        return this.color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public static void main(String[] args) {
         MyCar volvo = new MyCar();
         MyCar toyota = new MyCar();
@@ -28,6 +52,7 @@ public class MyCar {
         System.out.println(bmw.name);
         System.out.println(bmw.regNumber);
         System.out.println(bmw.color);
+        
 
     }
 
